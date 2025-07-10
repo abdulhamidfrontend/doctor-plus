@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #f2f7ff;
+  --text-color: #030526;
+  --bg-menu: #f2f7ff;
+  --main-text: #6c87ae;
+  --navbar-bg: #f2f7ff;
+  --aboutme-bg: white;
+  --card-bg: white;
+  --white-btn: #4976f7;
+  --whitebtn-bg: white;
+}
+
+.dark {
+  --bg-color: #030526;
+  --text-color: #ffffff;
+  --bg-menu: #030526;
+  --main-text: white;
+  --navbar-bg: #030526;
+  --aboutme-bg: #060821;
+  --card-bg: #11132f;
+  --white-btn: white;
+  --whitebtn-bg: #060821;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  font-family: "Sora", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn {
+  border-radius: 100px;
+  box-shadow: 0 8px 23px 0 rgba(65, 132, 247, 0.24);
+  background-color: #4976f7;
+  padding: 16px 28px;
+  color: white;
+}
+.menu {
+  background-color: var(--bg-menu);
+}
+
+.text {
+  color: var(--main-text);
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+}
+.aboutme {
+  background-color: var(--aboutme-bg);
+}
+.card {
+  background-color: var(--card-bg);
+}
+.whitebtn {
+  background-color: var(--whitebtn-bg);
+  color: var(--white-btn);
+}
